@@ -1,0 +1,20 @@
+<div class="container text-center mt-4 d-flex flex-wrap justify-content-center align-content-around"
+  style="height: 80vh;">
+  <div class="" style="border: 2px rgb(214, 215, 216) solid;padding: 50px;border-radius: 10%;">
+    <form method="POST" action="/">
+      <h1>Account Login</h1>
+      <div class="row my-5">
+        <input type="email" name="email" id="email" value="{{keep}}" placeholder="Enter your email" required>
+      </div>
+      <div class="row">
+        <input type="password" name="password" id="password" placeholder="Enter your password" required>
+      </div>
+      <button type="submit" class="sign mt-5 mb-4 btn btn-primary">Sign in</button>
+    </form>
+    {{#if error}}
+    <div class="alert alert-danger" role="alert">
+      <span class="mr-2">{{error}}</span>
+    </div>
+    {{/if}}
+  </div>
+</div>

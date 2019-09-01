@@ -1,0 +1,86 @@
+.google-btn {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    background: #ff5353;
+}
+
+main,
+header {
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 0 10px;
+    color: #333;
+}
+
+form input {
+    width: 100%;
+    font-size: 22px;
+}
+
+form .sign {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+form input {
+    width: 100%;
+    font-size: 22px;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fce2cf;
+    color: #000000;
+    text-align: center;
+}
+
+footer ul {
+    padding-inline-start: 0px;
+}
+
+footer li {
+    color: #6d7b77;
+    list-style-type: none;
+}
+
+footer h6 {
+    text-transform: uppercase;
+}
+
+.socialicon {
+    display: inline-block;
+}
+
+footer .socialicon a {
+    margin-right: 5px;
+}
+
+footer .fa-facebook-square {
+    color: #3b5998;
+    font-size: 40px;
+}
+
+footer .fa-github-square {
+    color: black;
+    font-size: 40px;
+}
+
+footer .fa-pinterest-square {
+    color: #cb2027;
+    font-size: 40px;
+}
+
+footer .fa-instagram {
+    color: #c32da2;
+    font-size: 40px;
+}
+
+footer .copyright {
+    padding-top: 40px;
+    border-top: 1px solid #6d7b77;
+    padding-bottom: 30px;
+}
