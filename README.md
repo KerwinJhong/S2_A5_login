@@ -1,6 +1,10 @@
 # S2_A5_signin
 
-使用 express 開發的幹化產生器
+```
+1.使用者輸入帳密：email & password
+2.如果找不到 username，或是 password 錯誤，介面會顯示 "Username/Password 錯誤"
+3.如果 username 和 password 組合正確，使用者就能成功登入，並導向 welcome page。
+```
 
 ## Image
 
@@ -35,10 +39,40 @@ $ npm install
 $ npm run dev
 ```
 
-2. 輸入網址
+3. 輸入網址
 
 ```
 http://localhost:3000
+```
+
+4. User Account
+
+```
+ {
+   firstName: 'Tony',
+   email: 'tony@stark.com',
+   password: 'iamironman'
+ },
+ {
+   firstName: 'Steve',
+   email: 'captain@hotmail.com',
+   password: 'icandothisallday'
+ },
+ {
+   firstName: 'Peter',
+   email: 'peter@parker.com',
+   password: 'enajyram'
+ },
+ {
+   firstName: 'Natasha',
+   email: 'natasha@gamil.com',
+   password: '*parol#@$!'
+ },
+ {
+   firstName: 'Nick',
+   email: 'nick@shield.com',
+   password: 'password'
+ }
 ```
 
 ## 作者
